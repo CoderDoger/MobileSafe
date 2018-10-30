@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:hxm="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#21A276"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="功能列表"/>
+
+    <hxm.com.mobilesafe.ui.MyCustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#f00"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="李二狗成功研究出抗寒蚊子，填补了我国冬天一直没有蚊子的空缺，目前李二狗已成功的被警方击毙！"
+        android:textSize="14sp" />
+    
+    <GridView
+        android:id="@+id/glist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:numColumns="3"
+        android:verticalSpacing="30dp"
+        />
+
+</LinearLayout>
